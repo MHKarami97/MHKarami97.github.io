@@ -26,7 +26,7 @@
 1. Fonts
 ============================================================================= */
 /* Font Awesome icons font */
-@import url(font-awesome.css); /* Full icons list: http://fontawesome.io/icons/ */
+@import url('font-awesome.css'); /* Full icons list: http://fontawesome.io/icons/ */
 
 /* Material Design Iconic Font */
 @import url('material-design-iconic-font.min.css'); /* Full icons list: http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.htmls */
