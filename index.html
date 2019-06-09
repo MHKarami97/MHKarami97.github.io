@@ -8,7 +8,7 @@
     <meta name="description" content="MHKarami,mohammad hossein karami,cv,vcard,resume" />
     <meta name="keywords" content="MHKarami,mohammad hossein karami,cv,vcard,resume" />
     <meta name="author" content="mhkarami97" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
@@ -47,16 +47,16 @@
             <!-- Main menu -->
             <ul id="nav" class="site-main-menu">
               <li>
-                <a class="pt-trigger" href="#home" data-animation="62">خانه</a><!-- href value = data-id without # of .pt-page. -->
+                <a class="pt-trigger" href="#home" data-animation="62">خانه</a>
               </li>
               <li>
                 <a class="pt-trigger" href="#resume" data-animation="62">رزومه</a>
+              </li>              
+              <li>
+                <a class="pt-trigger" href="#portfolio" data-animation="62">نمونه کارها</a>
               </li>
               <li>
                 <a class="pt-trigger" href="#services" data-animation="62">خصوصیت ها</a>
-              </li>
-              <li>
-                <a class="pt-trigger" href="#portfolio" data-animation="62">نمونه کارها</a>
               </li>
               <li>
                 <a class="pt-trigger" href="#blog" data-animation="62">وبلاگ</a>
@@ -403,13 +403,16 @@
                         <a class="filter btn btn-sm btn-link active" data-group="all">همه</a>
                       </li>
                       <li>
-                        <a class="filter btn btn-sm btn-link" data-group="media">سایت</a>
+                        <a class="filter btn btn-sm btn-link" data-group="site">سایت</a>
                       </li>
                       <li>
-                        <a class="filter btn btn-sm btn-link" data-group="illustration">وب سرویس</a>
+                        <a class="filter btn btn-sm btn-link" data-group="api">وب سرویس</a>
                       </li>
                       <li>
-                        <a class="filter btn btn-sm btn-link" data-group="video">نرم افزار</a>
+                        <a class="filter btn btn-sm btn-link" data-group="software">نرم افزار</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="more">دیگر</a>
                       </li>
                     </ul>
                     <!-- End of Portfolio filter -->
@@ -417,161 +420,160 @@
                     <!-- Portfolio Grid -->
                     <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
-                      <!-- Portfolio Item 1 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a class="ajax-page-load" href="portfolio-1.html">
-                          <img src="images/portfolio/1.jpg" alt="">
+                      <figure class="item" data-groups='["all", "api"]'>
+                        <a class="lightbox" href="images/portfolio/a11-min.png">
+                          <img src="images/portfolio/a11-min.png" alt="">
                           <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
+                            <h5 class="name">وب سرویس اپلیکیشن مای شاپ</h5>
+                            <small>ASP.Net Web API</small>
                             <i class="fa fa-file-text-o"></i>
                           </div>
                         </a>
                       </figure>
-                      <!-- /Portfolio Item 1 -->
 
-                      <!-- Portfolio Item 2 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/2.jpg" alt="">
+                      <figure class="item" data-groups='["all", "site"]'>
+                        <a class="lightbox" href="images/portfolio/a12-min.png">
+                          <img src="images/portfolio/a12-min.png" alt="">
                           <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 2 -->
-
-                      <!-- Portfolio Item 3 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/3.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 3 -->
-
-                      <!-- Portfolio Item 4 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a class="ajax-page-load" href="portfolio-2.html">
-                          <img src="images/portfolio/4.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
+                            <h5 class="name">پنل مدیریت اپلیکیشن مای شاپ</h5>
+                            <small>ASP.Net MVC5</small>
                             <i class="fa fa-file-text-o"></i>
                           </div>
                         </a>
                       </figure>
-                      <!-- /Portfolio Item 4 -->
 
-                      <!-- Portfolio Item 5 -->
-                      <figure class="item" data-groups='["all", "illustration"]'>
-                        <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
-                          <img src="images/portfolio/5.jpg" alt="">
+                      <figure class="item" data-groups='["all", "api"]'>
+                        <a class="lightbox" href="images/portfolio/a17-min.png">
+                          <img src="images/portfolio/a17-min.png" alt="">
                           <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 5 -->
-
-                      <!-- Portfolio Item 6 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a class="ajax-page-load" href="portfolio-3.html">
-                          <img src="images/portfolio/6.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
+                            <h5 class="name">وب سرویس اپلیکیشن داکوش</h5>
+                            <small>ASP.Net Web API</small>
                             <i class="fa fa-file-text-o"></i>
                           </div>
                         </a>
                       </figure>
-                      <!-- /Portfolio Item 6 -->
 
-                      <!-- Portfolio Item 7 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/7.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 7 -->
+                       <figure class="item" data-groups='["all", "api"]'>
+                         <a class="lightbox" href="images/portfolio/a16-min.png">
+                           <img src="images/portfolio/a16-min.png" alt="" style="width: 100px;">
+                           <div>
+                             <h5 class="name">وب سرویس اپلیکیشن گلینو</h5>
+                             <small>ASP.Net Web API</small>
+                             <i class="fa fa-file-text-o"></i>
+                           </div>
+                         </a>
+                       </figure>
 
-                      <!-- Portfolio Item 8 -->
-                      <figure class="item" data-groups='["all",  "media"]'>
-                        <a class="ajax-page-load" href="portfolio-4.html">
-                          <img src="images/portfolio/8.jpg" alt="">
+                       <figure class="item" data-groups='["all", "site"]'>
+                         <a class="lightbox" href="images/portfolio/a13-min.png">
+                           <img src="images/portfolio/a13-min.png" alt="">
+                           <div>
+                             <h5 class="name">وب سایت رایکا</h5>
+                             <small>ASP.Net MCV5</small>
+                             <i class="fa fa-file-text-o"></i>
+                           </div>
+                         </a>
+                       </figure>
+
+                      <figure class="item" data-groups='["all", "software"]'>
+                        <a class="lightbox" href="images/portfolio/a2-min.png">
+                          <img src="images/portfolio/a2-min.png" alt="">
                           <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
+                            <h5 class="name">مدیریت رستوران</h5>
+                            <small>C#</small>
                             <i class="fa fa-file-text-o"></i>
                           </div>
                         </a>
                       </figure>
-                      <!-- /Portfolio Item 8 -->
 
-                      <!-- Portfolio Item 9 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
-                          <img src="images/portfolio/9.jpg" alt="">
+                      <figure class="item" data-groups='["all", "software"]'>
+                        <a class="lightbox" href="images/portfolio/a3-min.png">
+                          <img src="images/portfolio/a3-min.png" alt="">
                           <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 9 -->
-
-                      <!-- Portfolio Item 10 -->
-                      <figure class="item" data-groups='["all", "video"]'>
-                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
-                          <img src="images/portfolio/10.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Video</small>
-                            <i class="fa fa-video-camera"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 10 -->
-
-                      <!-- Portfolio Item 11 -->
-                      <figure class="item" data-groups='["all","illustration"]'>
-                        <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                          <img src="images/portfolio/11.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Illustration</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 11 -->
-
-                      <!-- Portfolio Item 12 -->
-                      <figure class="item" data-groups='["all","media"]'>
-                        <a class="ajax-page-load" href="portfolio-5.html">
-                          <img src="images/portfolio/12.jpg" alt="">
-                          <div>
-                            <h5 class="name">Project Name</h5>
-                            <small>Media</small>
+                            <h5 class="name">حسابداری</h5>
+                            <small>C#</small>
                             <i class="fa fa-file-text-o"></i>
                           </div>
                         </a>
                       </figure>
-                      <!-- /Portfolio Item 12 -->
+
+                      <figure class="item" data-groups='["all", "software"]'>
+                        <a class="lightbox" href="images/portfolio/a8-min.png">
+                          <img src="images/portfolio/a8-min.png" alt="">
+                          <div>
+                            <h5 class="name">مدیریت باشگاه</h5>
+                            <small>C#</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "more"]'>
+                        <a class="lightbox" href="images/portfolio/a4-min.png">
+                          <img src="images/portfolio/a4-min.png" alt="">
+                          <div>
+                            <h5 class="name">ربات تلگرام</h5>
+                            <small>C#</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "more"]'>
+                        <a class="lightbox" href="images/portfolio/a10-min.png">
+                          <img src="images/portfolio/a10-min.png" alt="">
+                          <div>
+                            <h5 class="name">ربات خبری</h5>
+                            <small>C#</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "site"]'>
+                        <a class="lightbox" href="images/portfolio/a5-min.png">
+                          <img src="images/portfolio/a5-min.png" alt="">
+                          <div>
+                            <h5 class="name">وب سایت ترفندی</h5>
+                            <small>ASP.Net MVC5</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "site"]'>
+                        <a class="lightbox" href="images/portfolio/a9-min.png">
+                          <img src="images/portfolio/a9-min.png" alt="">
+                          <div>
+                            <h5 class="name">مدیریت بیمارستان</h5>
+                            <small>ASP.Net MVC5</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "site"]'>
+                        <a class="lightbox" href="images/portfolio/a6-min.png">
+                          <img src="images/portfolio/a6-min.png" alt="">
+                          <div>
+                            <h5 class="name">چت روم</h5>
+                            <small>PHP</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
+                      <figure class="item" data-groups='["all", "site"]'>
+                        <a class="lightbox" href="images/portfolio/a1-min.png">
+                          <img src="images/portfolio/a1-min.png" alt="">
+                          <div>
+                            <h5 class="name">مدیریت مدرسه</h5>
+                            <small>PHP</small>
+                            <i class="fa fa-file-text-o"></i>
+                          </div>
+                        </a>
+                      </figure>
+
                     </div>
                     <!-- /Portfolio Grid -->
 

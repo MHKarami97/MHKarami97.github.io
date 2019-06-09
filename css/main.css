@@ -685,7 +685,7 @@ body > footer .copyrights {
 
 .site-main-menu li {
   display: inline-block;
-  float: left;
+  float: right;
   position: relative;
   padding: 0;
   text-align: center;
