@@ -378,7 +378,10 @@
                     </div>
                   </div>
                 </div>
+                
+                <button onclick="toggleClock()" class="button btn-send" id="clockButton">نمایش جزئیات بیشتر</button>
 
+                <div id="clock" style="display:none;">
                 <div class="row">
                   <div class="col-sm-12 col-md-12">
                     <div class=block-title>
@@ -504,6 +507,7 @@
                       </div>
                     </div>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -1038,6 +1042,21 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.hoverdir.min.js"></script>
   <script src="js/main.min.js"></script>
+  <script>
+ function toggleClock() {
+    var myClock = document.getElementById('clock');
+    var displaySetting = myClock.style.display;
+    var clockButton = document.getElementById('clockButton');
+    if (displaySetting == 'block') {
+      myClock.style.display = 'none';
+      clockButton.innerHTML = 'نمایش جزئیات بیشتر';
+    }
+    else {
+      myClock.style.display = 'block';
+      clockButton.innerHTML = 'مخفی کردن';
+    }
+  }
+</script>
 </body>
 
 </html>
