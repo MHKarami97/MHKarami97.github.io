@@ -381,7 +381,7 @@
                 
                 <center><button onclick="toggleClock()" class="button btn-send" id="clockButton">نمایش جزئیات بیشتر</button></center>
 
-                <div id="clock" style="min-height:400px;display:block;"></div>
+                <div id="clock1" style="min-height:400px;display:block;"></div>
                 <div class="row" id="clock" style="display:none;">
                   <div class="col-sm-12 col-md-12">
                     <div class=block-title>
@@ -1044,15 +1044,22 @@
   <script>
  function toggleClock() {
     var myClock = document.getElementById('clock');
+   var myClock1 = document.getElementById('clock1');
     var displaySetting = myClock.style.display;
+   var displaySetting1 = myClock1.style.display;
     var clockButton = document.getElementById('clockButton');
+   if (displaySetting1 == 'block') {
+      myClock1.style.display = 'none';
+    }
+    else {
+      myClock1.style.display = 'block';
+    }
     if (displaySetting == 'block') {
       myClock.style.display = 'none';
       clockButton.innerHTML = 'نمایش جزئیات بیشتر';
     }
     else {
       myClock.style.display = 'block';
-      myClock.style.minHeight = '400px';
       clockButton.innerHTML = 'مخفی کردن';
     }
   }
