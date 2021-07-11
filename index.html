@@ -381,7 +381,7 @@
                 
                 <center><button onclick="toggleClock()" class="button btn-send" id="clockButton">نمایش جزئیات بیشتر</button></center>
 
-                <div class="row" id="clock" style="display:none;">
+                <div class="row" id="clock" style="display:none;min-height:400px;">
                   <div class="col-sm-12 col-md-12">
                     <div class=block-title>
                       <h3>آزمون های <span>شخصیت شناسی</span></h3>
@@ -1045,12 +1045,12 @@
     var myClock = document.getElementById('clock');
     var displaySetting = myClock.style.display;
     var clockButton = document.getElementById('clockButton');
-    if (displaySetting == 'flex') {
+    if (displaySetting == 'block') {
       myClock.style.display = 'none';
       clockButton.innerHTML = 'نمایش جزئیات بیشتر';
     }
     else {
-      myClock.style.display = 'flex';
+      myClock.style.display = 'block';
       myClock.style.minHeight = '400px';
       clockButton.innerHTML = 'مخفی کردن';
     }
