@@ -1045,12 +1045,13 @@
     var myClock = document.getElementById('clock');
     var displaySetting = myClock.style.display;
     var clockButton = document.getElementById('clockButton');
-    if (displaySetting == 'block') {
+    if (displaySetting == 'flex') {
       myClock.style.display = 'none';
       clockButton.innerHTML = 'نمایش جزئیات بیشتر';
     }
     else {
-      myClock.style.display = 'block';
+      myClock.style.display = 'flex';
+      myClock.style.minHeight = '400px';
       clockButton.innerHTML = 'مخفی کردن';
     }
   }
