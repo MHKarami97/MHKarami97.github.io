@@ -1,7 +1,7 @@
 // gitprofile.config.js
 
 const config = {
-  github: {
+ /* github: {
     username: 'mhkarami97', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
     limit: 5, // How many projects to display.
@@ -9,15 +9,14 @@ const config = {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
-  },
+  }, */
   social: {
     linkedin: 'mhkarami97',
     twitter: 'mhkarami97',
     facebook: 'mhkarami97',
     instagram: 'mhkarami97',
     telegram: 'mhkarami97',
-    youtube: 'mhkarami97',
-    website: 'itarfand.com',
+    website: 'https://itarfand.com',
     email: 'mhkarami97@gmail.com',
   },
   resume: {
@@ -157,11 +156,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'default',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -172,36 +171,8 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
+      'light',      
       'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
@@ -221,7 +192,7 @@ const config = {
       class="text-primary" href="https://github.com/mhkarami97"
       target="_blank"
       rel="noreferrer"
-    >MOhammad Hossein Karami</a> and ❤️`,
+    >Mohammad Hossein Karami</a> and ❤️`,
 };
 
 export default config;

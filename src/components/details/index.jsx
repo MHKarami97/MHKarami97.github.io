@@ -196,15 +196,7 @@ const Details = ({ profile, loading, social, github }) => {
                   value={social.stackoverflow.split('/').slice(-1)}
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
-              )}
-              {social?.website && (
-                <ListItem
-                  icon={<FaGlobe />}
-                  title="Website:"
-                  value={social.website}
-                  link={social.website}
-                />
-              )}
+              )}              
               {social?.skype && (
                 <ListItem
                   icon={<FaSkype />}
@@ -236,6 +228,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
+                />
+              )}
+              {social?.website && (
+                <ListItem
+                  icon={<FaGlobe />}
+                  title="Website:"
+                  value={social.website}
+                  link={social.website}
                 />
               )}
             </Fragment>
