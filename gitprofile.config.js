@@ -21,7 +21,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://kinkedin.com/in/mhkarami97', // Empty fileUrl will hide the `Download Resume` button.
+      'https://linkedin.com/in/mhkarami97', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C#',
