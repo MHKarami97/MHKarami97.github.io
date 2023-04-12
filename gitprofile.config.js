@@ -60,84 +60,84 @@ const config = {
       title: 'آی ترفند',
       description:
         'ترفندهای کاربردی حوضه تکنولوژی',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/09.png',
       link: 'https://itarfand.com',
     },
     {
       title: 'فروشگاه آی ترفند',
       description:
         'فروشگاه پروژه‌های نرم‌افزاری',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/08.png',
       link: 'https://shop.itarfand.com',
     },
     {
       title: 'انجمن آی ترفند',
       description:
         'انجمن گفتگو',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/10.png',
       link: 'https://forum.itarfand.com',
     },
     {
       title: 'طراحی',
       description:
         'طراحی و برنامه‌نویسی ایده‌های شما',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/07.png',
       link: 'https://design.mhkarami97.ir',
     },    
     {
       title: 'کتابخانه',
       description:
         'کتاب‌های خوانده شده',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/03.png',
       link: 'https://book.mhkarami97.ir',
     },    
     {
       title: 'فیلم‌خانه',
       description:
         'فیلم‌های دیده شده',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/05.png',
       link: 'https://video.mhkarami97.ir',
     },    
     {
       title: 'سفرنامه',
       description:
         'سفرهای رفته',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/06.png',
       link: 'https://travel.mhkarami97.ir',
     },    
     {
       title: 'کلیپ',
       description:
         'کلیپ سفرهای رفته شده',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/06.png',
       link: 'https://trip.mhkarami97.ir',
     },  
     {
       title: 'شعر‌خانه',
       description:
         'شعرهای خوانده شده',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/11.png',
       link: 'https://poem.mhkarami97.ir',
     },
     {
       title: 'وبلاگ',
       description:
         'وبلاگ روزمرگی‌های برنامه‌نویسی',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/12.png',
       link: 'https://blog.mhkarami97.ir',
     },
     {
       title: 'لینکدونی',
       description:
         'لینک سایت‌های کاربردی',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/02.png',
       link: 'https://link.mhkarami97.ir',
     },
     {
       title: 'طبیعت‌گردی',
       description:
         'رزومه طبیعت‌گردی',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: '/icons/01.png',
       link: 'https://karamtravel.ir',
     },
   ],
