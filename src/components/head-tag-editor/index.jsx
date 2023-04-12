@@ -22,7 +22,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>Portfolio{profile.name && ` of ${profile.name}`}</title>
+          <title>{profile.name}</title>
           <meta
             name="theme-color"
             content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
