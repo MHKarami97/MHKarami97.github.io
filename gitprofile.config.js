@@ -48,7 +48,7 @@ const config = {
   education: [
     {
       institution: 'Software Engineer',
-      degree: 'Degree',
+      degree: '',
       from: '2016',
       to: '2020',
     },
