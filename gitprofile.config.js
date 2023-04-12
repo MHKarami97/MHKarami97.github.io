@@ -17,7 +17,7 @@ const config = {
     instagram: 'mhkarami97',
     telegram: 'mhkarami97',
     youtube: 'mhkarami97',
-    website: 'https://itarfand.com',
+    website: 'itarfand.com',
     email: 'mhkarami97@gmail.com',
   },
   resume: {
