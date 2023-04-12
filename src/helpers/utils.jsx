@@ -19,7 +19,7 @@ export const getInitialTheme = (themeConfig) => {
   if (themeConfig.respectPrefersColorScheme && !themeConfig.disableSwitch) {
     return typeof window !== 'undefined' &&
       window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark'
+      ? 'dracula'
       : themeConfig.defaultTheme;
   }
 
