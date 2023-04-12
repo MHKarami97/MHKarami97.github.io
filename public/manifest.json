@@ -1,23 +1,6 @@
 {
   "short_name": "MHKarami97",
   "name": "Mohammad Hossein Karami",
-  "icons": [
-    {
-      "src": "favicon.png",
-      "sizes": "64x64",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "my.jpg",
-      "type": "image/jpeg",
-      "sizes": "192x192"
-    },
-    {
-      "src": "my.jpg",
-      "type": "image/jpeg",
-      "sizes": "512x512"
-    }
-  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#7a44ee",
