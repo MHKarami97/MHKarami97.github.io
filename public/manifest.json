@@ -1,0 +1,25 @@
+{
+  "short_name": "Mohammad Hossein Karami",
+  "name": "Mohammad Hossein Karami",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "my.png",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "my.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7a44ee",
+  "background_color": "#ffffff"
+}
