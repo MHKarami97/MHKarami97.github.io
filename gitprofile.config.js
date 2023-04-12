@@ -1,7 +1,7 @@
 // gitprofile.config.js
 
 const config = {
- /* github: {
+  github: {
     username: 'mhkarami97', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
     limit: 5, // How many projects to display.
@@ -9,7 +9,7 @@ const config = {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
-  }, */
+  },
   social: {
     linkedin: 'mhkarami97',
     twitter: 'mhkarami97',
