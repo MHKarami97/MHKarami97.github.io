@@ -31,7 +31,7 @@ const config = {
   experiences: [
     {
       company: 'Asa Co',
-      position: 'Position',
+      position: 'Developer',
       from: 'Jun 2020',
       to: 'Present',
       companyLink: 'https://asax.ir',
