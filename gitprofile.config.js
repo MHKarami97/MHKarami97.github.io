@@ -27,6 +27,8 @@ const config = {
     'C#',
     'SQL',
     'Angular',
+    'Git',
+    'Docker'
   ],
   experiences: [
     {

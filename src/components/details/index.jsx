@@ -202,21 +202,21 @@ const Details = ({ profile, loading, social, github }) => {
                   value={social.phone}
                   link={`tel:${social.phone}`}
                 />
-              )}
-              {social?.email && (
-                <ListItem
-                  icon={<RiMailFill />}
-                  title="Email:"
-                  value={social.email}
-                  link={`mailto:${social.email}`}
-                />
-              )}
+              )}             
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
                   title="Website:"
                   value={social.website}
                   link={`https://${social.website}`}
+                />
+              )}
+               {social?.email && (
+                <ListItem
+                  icon={<RiMailFill />}
+                  title="Email:"
+                  value={social.email}
+                  link={`mailto:${social.email}`}
                 />
               )}
             </Fragment>
