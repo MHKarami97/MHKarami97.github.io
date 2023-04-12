@@ -123,6 +123,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
   };
 
   return (
+    <Fragment></Fragment>
   );
 };
 
