@@ -91,26 +91,7 @@ const Details = ({ profile, loading, social, github }) => {
           {loading || !profile ? (
             renderSkeleton()
           ) : (
-            <Fragment>
-              {profile.location && (
-                <ListItem
-                  icon={<MdLocationOn />}
-                  title="Based in:"
-                  value={profile.location}
-                />
-              )}
-              {profile.company && (
-                <ListItem
-                  icon={<FaBuilding />}
-                  title="Company:"
-                  value={profile.company}
-                  link={
-                    isCompanyMention(profile.company.trim())
-                      ? companyLink(profile.company.trim())
-                      : null
-                  }
-                />
-              )}
+            <Fragment>              
               <ListItem
                 icon={<AiFillGithub />}
                 title="GitHub:"
@@ -235,7 +216,7 @@ const Details = ({ profile, loading, social, github }) => {
                   icon={<FaGlobe />}
                   title="Website:"
                   value={social.website}
-                  link={social.website}
+                  link={`https://${social.website}`}
                 />
               )}
             </Fragment>

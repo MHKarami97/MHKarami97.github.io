@@ -123,46 +123,6 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
   };
 
   return (
-    <Fragment>
-      <div className="col-span-1 lg:col-span-2">
-        <div className="grid grid-cols-2 gap-6">
-          <div className="col-span-2">
-            <div className="card compact bg-base-100 shadow bg-opacity-40">
-              <div className="card-body">
-                <div className="mx-3 flex items-center justify-between mb-2">
-                  <h5 className="card-title">
-                    {loading ? (
-                      skeleton({ width: 'w-40', height: 'h-8' })
-                    ) : (
-                      <span className="text-base-content opacity-70">
-                        GitHub Projects
-                      </span>
-                    )}
-                  </h5>
-                  {loading ? (
-                    skeleton({ width: 'w-10', height: 'h-5' })
-                  ) : (
-                    <a
-                      href={`https://github.com/${github.username}?tab=repositories`}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-base-content opacity-50 hover:underline"
-                    >
-                      See All
-                    </a>
-                  )}
-                </div>
-                <div className="col-span-2">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {loading || !repo ? renderSkeleton() : renderProjects()}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Fragment>
   );
 };
 
