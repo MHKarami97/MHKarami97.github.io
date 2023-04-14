@@ -15,7 +15,8 @@ const displaySection = (blog) => {
 };
 
 const Blog = ({ loading, blog, googleAnalytics }) => {
-  const [articles, setArticles] = useState(null);
+  const [setArticles] = useState(null);
+  let articles = null;
 
   useEffect(() => {
     if (displaySection(blog)) {
