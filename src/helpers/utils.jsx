@@ -159,6 +159,11 @@ export const sanitizeConfig = (config) => {
       phone: config?.social?.phone,
       email: config?.social?.email,
       skype: config?.social?.skype,
+      youtube: PropTypes.string,
+      aparat: PropTypes.string,
+      soundcloud: PropTypes.string,
+      spotify: PropTypes.string,
+      couchsurfing: PropTypes.string,
       telegram: config?.social?.telegram,
     },
     resume: {

@@ -19,6 +19,11 @@ import {
   FaStackOverflow,
   FaTelegram,
   FaLinkedin,
+  FaYoutube,
+  FaFilm,
+  FaSoundcloud,
+  FaSpotify,
+  FaBicycle,
 } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import { skeleton } from '../../helpers/utils';
@@ -194,7 +199,30 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://t.me/${social.telegram}`}
                 />
               )}
-
+              {social?.youtube && (
+                <ListItem
+                  icon={<FaYoutube />}
+                  title="Youtube"
+                  value={social.youtube}
+                  link={`https://youtube.com/@${social.youtube}`}
+                />
+              )}
+              {social?.aparat && (
+                <ListItem
+                  icon={<FaFilm />}
+                  title="Aparat"
+                  value={social.aparat}
+                  link={`https://aparat.com/${social.aparat}`}
+                />
+              )}
+              {social?.couchsurfing && (
+                <ListItem
+                  icon={<FaBicycle />}
+                  title="Couchsurfing"
+                  value={social.couchsurfing}
+                  link={`https://couchsurfing.com/people/${social.couchsurfing}`}
+                />
+              )}
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}

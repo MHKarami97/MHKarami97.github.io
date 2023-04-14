@@ -99,6 +99,12 @@ export interface Social {
    */
   skype?: string;
 
+  youtube?: string;
+  aparat?: string;
+  soundcloud?: string;
+  spotify?: string;
+  couchsurfing?: string;
+
   /**
    * Telegram username
    */
