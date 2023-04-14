@@ -59,14 +59,14 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Bachelor’s Degree (Computer Engineer)',
-      degree: '',
+      institution: 'Computer Engineer',
+      degree: 'Bachelor',
       from: '2016',
       to: '2020',
     },
     {
-      institution: 'Master’s Degree (Software Engineer)',
-      degree: '',
+      institution: 'Software Engineer',
+      degree: 'Master',
       from: '2020',
       to: '2022',
     },
