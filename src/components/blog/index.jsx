@@ -30,7 +30,21 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
           user: blog.username,
         }).then((res) => {
           setArticles(res);
-        });
+        });      
+      } else if (blog.source === 'forum') {
+        let customData=
+        [
+          {
+              title: "Quadcopter repair by own",
+              description: "How I repair my own Quadcopter",
+              thumbnail: "https://forum.itarfand.com/uploads/monthly_2023_01/photo_2023-01-14_15-57-32.thumb.jpg.485068e74ec6944c086a486e334db23d.jpg",
+              link: "https://forum.itarfand.com/topic/171-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AA%D8%B9%D9%85%DB%8C%D8%B1-%DA%A9%D9%88%D8%A7%D8%AF%DA%A9%D9%88%D9%BE%D8%AA%D8%B1/",
+              categories: ["electronic", "technology"],
+              publishedAt: "Wed Aug 11 2023 10:10:10"
+          }
+      ];
+
+        setArticles(customData);
       }
     }
   }, []);
@@ -194,7 +208,7 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                         skeleton({ width: 'w-28', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          Recent Posts
+                          Posts
                         </span>
                       )}
                     </h5>

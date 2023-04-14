@@ -32,9 +32,16 @@ const config = {
   ],
   experiences: [
     {
+      company: 'FreeLancer',
+      position: '',
+      from: '2018',
+      to: '2020',
+      companyLink: 'https://itarfand.com',
+    },
+    {
       company: 'Asa Co',
       position: 'Developer',
-      from: 'Jun 2020',
+      from: '2020',
       to: 'Present',
       companyLink: 'https://asax.ir',
     },
@@ -49,10 +56,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Software Engineer',
+      institution: 'Bachelor’s Degree (Software Engineer)',
       degree: '',
       from: '2016',
       to: '2020',
+    },
+    {
+      institution: 'Master’s Degree (Software Engineer)',
+      degree: '',
+      from: '2020',
+      to: '2022',
     },
   ],
 
@@ -144,11 +157,11 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  /* blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  }, */
+   blog: {
+    source: 'forum', // medium | dev
+    username: 'mhkarami97', // to hide blog section, keep it empty
+    limit: 5, // How many posts to display. Max is 10.
+  },
   googleAnalytics: {
     id: 'G-DZM25ZLKRP', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
