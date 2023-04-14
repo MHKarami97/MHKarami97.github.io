@@ -22,10 +22,10 @@
 }
 
 @font-face {
-  font-family: "BYekan";
-  src: url(/fonts/BYekan.ttf) format("truetype"),
-    url(/fonts/BYekan.eot?#) format("eot"),
-    url(/fonts/BYekan.woff) format("woff");
+  font-family: 'BYekan';
+  src: url('/fonts/BYekan.ttf') format("truetype"),
+    url('/fonts/BYekan.eot') format("eot"),
+    url('/fonts/BYekan.woff') format("woff");
   font-style: normal;
   font-weight: 400;
 }
@@ -37,7 +37,7 @@
 
 body {
   margin: 0;
-  font-family: 'BYekan', 'Tahoma', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'BYekan', 'Tahoma', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
