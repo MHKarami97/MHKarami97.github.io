@@ -33,14 +33,14 @@ const config = {
   experiences: [
     {
       company: 'FreeLancer',
-      position: '',
+      position: 'FullStack',
       from: '2018',
       to: '2020',
       companyLink: 'https://itarfand.com',
     },
     {
       company: 'Asa Co',
-      position: 'Developer',
+      position: 'Backend Developer',
       from: '2020',
       to: 'Present',
       companyLink: 'https://asax.ir',
@@ -56,7 +56,7 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Bachelor’s Degree (Software Engineer)',
+      institution: 'Bachelor’s Degree (Computer Engineer)',
       degree: '',
       from: '2016',
       to: '2020',
