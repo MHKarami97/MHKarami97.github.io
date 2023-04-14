@@ -257,8 +257,6 @@ GitProfile.propTypes = {
       skype: PropTypes.string,
       youtube: PropTypes.string,
       aparat: PropTypes.string,
-      soundcloud: PropTypes.string,
-      spotify: PropTypes.string,
       couchsurfing: PropTypes.string,
       telegram: PropTypes.string,
       phone: PropTypes.string,

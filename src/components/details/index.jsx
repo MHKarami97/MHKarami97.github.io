@@ -21,8 +21,6 @@ import {
   FaLinkedin,
   FaYoutube,
   FaFilm,
-  FaSoundcloud,
-  FaSpotify,
   FaBicycle,
 } from 'react-icons/fa';
 import PropTypes from 'prop-types';

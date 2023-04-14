@@ -18,8 +18,6 @@ const config = {
     telegram: 'mhkarami97',
     youtube: 'mhkarami97',
     aparat: 'mhkarami97',
-    soundcloud: 'mhkarami97',
-    spotify: 'mhkarami97',
     couchsurfing: 'mhkarami97',
     website: 'itarfand.com',
     email: 'mhkarami97@gmail.com',
