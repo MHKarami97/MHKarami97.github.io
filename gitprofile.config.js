@@ -157,11 +157,11 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  /* blog: {
+  blog: {
     source: 'forum', // medium | dev
     username: 'mhkarami97', // to hide blog section, keep it empty
     limit: 5, // How many posts to display. Max is 10.
-  }, */
+  },
   googleAnalytics: {
     id: 'G-DZM25ZLKRP', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
