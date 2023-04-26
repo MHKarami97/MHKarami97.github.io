@@ -138,6 +138,13 @@ const config = {
       link: 'https://poem.mhkarami97.ir',
     },
     {
+      title: 'جملات انگیزشی',
+      description:
+        'جملات انگیزشی بزرگان',
+      imageUrl: '/icons/13.png',
+      link: 'https://sentence.mhkarami97.ir',
+    },
+    {
       title: 'وبلاگ',
       description:
         'وبلاگ روزمرگی‌های برنامه‌نویسی',
