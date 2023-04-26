@@ -165,6 +165,13 @@ const config = {
       imageUrl: '/icons/01.png',
       link: 'https://karamtravel.ir',
     },
+    {
+      title: 'ایونت',
+      description:
+        'ایونت‌های طبیعت‌گردی',
+      imageUrl: '/icons/14.png',
+      link: 'https://event.karamtravel.ir',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   /* blog: {
