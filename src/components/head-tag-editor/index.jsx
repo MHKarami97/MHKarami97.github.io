@@ -35,7 +35,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
             content={`${profile.name}`}
           />
           <meta itemProp="description" content={profile.bio} />
-          <meta itemProp="image" content={profile.avatar} />
+          <meta itemProp="image" content="/my.jpg" />
 
           <meta property="og:url" content={social?.website || ''} />
           <meta property="og:type" content="website" />
@@ -44,7 +44,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
             content={`${profile.name}`}
           />
           <meta property="og:description" content={profile.bio} />
-          <meta property="og:image" content={profile.avatar} />
+          <meta property="og:image" content="/my.jpg" />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta
@@ -52,7 +52,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
             content={`${profile.name}`}
           />
           <meta name="twitter:description" content={profile.bio} />
-          <meta name="twitter:image" content={profile.avatar} />
+          <meta name="twitter:image" content="/my.jpg"  />
         </Helmet>
       )}
     </Fragment>
