@@ -115,6 +115,13 @@ const config = {
         'فیلم‌های دیده شده',
       imageUrl: '/icons/05.png',
       link: 'https://video.mhkarami97.ir',
+    },   
+    {
+      title: 'آهنگ‌خانه',
+      description:
+        'گلچین آهنگ‌ها',
+      imageUrl: '/icons/05.png',
+      link: 'https://music.mhkarami97.ir',
     },    
     {
       title: 'سفرنامه',
@@ -162,15 +169,8 @@ const config = {
       title: 'طبیعت‌گردی',
       description:
         'رزومه طبیعت‌گردی',
-      imageUrl: '/icons/01.png',
+      imageUrl: '/icons/15.png',
       link: 'https://karamtravel.ir',
-    },
-    {
-      title: 'ایونت',
-      description:
-        'ایونت‌های طبیعت‌گردی',
-      imageUrl: '/icons/14.png',
-      link: 'https://event.karamtravel.ir',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
