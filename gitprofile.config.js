@@ -120,7 +120,7 @@ const config = {
       title: 'آهنگ‌خانه',
       description:
         'گلچین آهنگ‌ها',
-      imageUrl: '/icons/05.png',
+      imageUrl: '/icons/15.png',
       link: 'https://music.mhkarami97.ir',
     },    
     {
@@ -169,7 +169,7 @@ const config = {
       title: 'طبیعت‌گردی',
       description:
         'رزومه طبیعت‌گردی',
-      imageUrl: '/icons/15.png',
+      imageUrl: '/icons/01.png',
       link: 'https://karamtravel.ir',
     },
   ],
