@@ -145,6 +145,13 @@ const config = {
       link: 'https://poem.mhkarami97.ir',
     },
     {
+      title: 'فوت‌و‌فن',
+      description:
+        'نکات کاربردی',
+      imageUrl: '/icons/16.png',
+      link: 'https://trick.mhkarami97.ir',
+    },
+    {
       title: 'جملات انگیزشی',
       description:
         'جملات انگیزشی بزرگان',
@@ -164,6 +171,13 @@ const config = {
         'لینک سایت‌های کاربردی',
       imageUrl: '/icons/02.png',
       link: 'https://link.mhkarami97.ir',
+    },
+    {
+      title: 'ایونت',
+      description:
+        'ایونت‌های طبیعت‌گردی',
+      imageUrl: '/icons/14.png',
+      link: 'https://event.karamtravel.ir',
     },
     {
       title: 'طبیعت‌گردی',
