@@ -7,7 +7,7 @@ const Magic = ({  }) => {
           <div className="card-body">
             <div className="flow-root">
               <div className="-m-1 flex flex-wrap justify-center">
-                  <a href="https://magic.mhkarami97.ir" className="text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-accent bg-opacity-90 rounded-full">
+                  <a href="https://magic.mhkarami97.ir" className="text-base inline-flex items-center font-bold leading-sm px-5 py-1 badge-accent bg-opacity-90 rounded-full">
                     Magic Box
                   </a>
               </div>
