@@ -53,7 +53,7 @@ const config = {
     {
       name: 'C#',
       body: 'LinkedIn Skill Assessment badge',
-      year: '',
+      year: '2022',
       link: 'https://www.linkedin.com/in/mhkarami97/details/skills/'
     },
   ],
