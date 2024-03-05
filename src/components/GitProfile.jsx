@@ -12,6 +12,7 @@ import Education from './education';
 import Project from './project';
 import Blog from './blog';
 import Footer from './footer';
+import Magic from './magic';
 import {
   genericError,
   getInitialTheme,
