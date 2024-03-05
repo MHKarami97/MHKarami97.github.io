@@ -177,6 +177,9 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         social={sanitizedConfig.social}
                       />
+                      <Magic
+                        loading={loading}
+                      />
                       <Skill
                         loading={loading}
                         skills={sanitizedConfig.skills}

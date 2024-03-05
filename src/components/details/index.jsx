@@ -97,14 +97,14 @@ const Details = ({ profile, loading, social, github }) => {
             <Fragment>              
               <ListItem
                 icon={<AiFillGithub />}
-                title="GitHub:"
+                title="GitHub"
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
               {social?.twitter && (
                 <ListItem
                   icon={<SiTwitter />}
-                  title="Twitter:"
+                  title="Twitter"
                   value={social.twitter}
                   link={`https://twitter.com/${social.twitter}`}
                 />
@@ -112,7 +112,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.mastodon && (
                 <ListItem
                   icon={<FaMastodon />}
-                  title="Mastodon:"
+                  title="Mastodon"
                   value={getFormattedMastodonValue(social.mastodon, false)}
                   link={getFormattedMastodonValue(social.mastodon, true)}
                 />
@@ -120,7 +120,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.linkedin && (
                 <ListItem
                   icon={<FaLinkedin />}
-                  title="LinkedIn:"
+                  title="LinkedIn"
                   value={social.linkedin}
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
@@ -128,7 +128,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.dribbble && (
                 <ListItem
                   icon={<CgDribbble />}
-                  title="Dribbble:"
+                  title="Dribbble"
                   value={social.dribbble}
                   link={`https://dribbble.com/${social.dribbble}`}
                 />
@@ -136,7 +136,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.behance && (
                 <ListItem
                   icon={<FaBehanceSquare />}
-                  title="Behance:"
+                  title="Behance"
                   value={social.behance}
                   link={`https://www.behance.net/${social.behance}`}
                 />
@@ -144,7 +144,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.facebook && (
                 <ListItem
                   icon={<FaFacebook />}
-                  title="Facebook:"
+                  title="Facebook"
                   value={social.facebook}
                   link={`https://www.facebook.com/${social.facebook}`}
                 />
@@ -152,7 +152,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.instagram && (
                 <ListItem
                   icon={<AiFillInstagram />}
-                  title="Instagram:"
+                  title="Instagram"
                   value={social.instagram}
                   link={`https://www.instagram.com/${social.instagram}`}
                 />
@@ -160,7 +160,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.medium && (
                 <ListItem
                   icon={<AiFillMediumSquare />}
-                  title="Medium:"
+                  title="Medium"
                   value={social.medium}
                   link={`https://medium.com/@${social.medium}`}
                 />
@@ -168,7 +168,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.dev && (
                 <ListItem
                   icon={<FaDev />}
-                  title="Dev:"
+                  title="Dev"
                   value={social.dev}
                   link={`https://dev.to/${social.dev}`}
                 />
@@ -176,7 +176,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.stackoverflow && (
                 <ListItem
                   icon={<FaStackOverflow />}
-                  title="Stack Overflow:"
+                  title="Stack Overflow"
                   value={social.stackoverflow.split('/').slice(-1)}
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
@@ -224,7 +224,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}
-                  title="Phone:"
+                  title="Phone"
                   value={social.phone}
                   link={`tel:${social.phone}`}
                 />
@@ -232,7 +232,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
-                  title="Website:"
+                  title="Website"
                   value={social.website}
                   link={`https://${social.website}`}
                 />
@@ -240,7 +240,7 @@ const Details = ({ profile, loading, social, github }) => {
                {social?.email && (
                 <ListItem
                   icon={<RiMailFill />}
-                  title="Email:"
+                  title="Email"
                   value={social.email}
                   link={`mailto:${social.email}`}
                 />

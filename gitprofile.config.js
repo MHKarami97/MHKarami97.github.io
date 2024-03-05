@@ -49,14 +49,14 @@ const config = {
       companyLink: 'https://asax.ir',
     },
   ],
-  /* certifications: [
+   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'C#',
+      body: 'LinkedIn Skill Assessment badge',
+      year: '',
+      link: 'https://www.linkedin.com/in/mhkarami97/details/skills/'
     },
-  ], */
+  ],
   education: [
     {
       institution: 'Computer Engineer',
