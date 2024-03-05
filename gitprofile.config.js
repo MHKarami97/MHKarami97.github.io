@@ -235,7 +235,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made By <a 
-      class="text-accent" href="https://github.com/mhkarami97"
+      class="text-amber-400" href="https://github.com/mhkarami97"
       target="_blank"
       rel="noreferrer"
     >Mohammad Hossein Karami</a>`,
