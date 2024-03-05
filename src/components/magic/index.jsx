@@ -18,7 +18,7 @@ const Magic = ({  }) => {
   );
 };
 
-magic.propTypes = {
+Magic.propTypes = {
   loading: PropTypes.bool.isRequired,
 };
 
