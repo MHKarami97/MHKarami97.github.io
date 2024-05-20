@@ -186,6 +186,13 @@ const config = {
       imageUrl: '/icons/01.png',
       link: 'https://karamtravel.ir',
     },
+    {
+      title: 'تجربه',
+      description:
+        'تجربه',
+      imageUrl: '/icons/17.png',
+      link: 'https://experience.mhkarami97.ir',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   /* blog: {
