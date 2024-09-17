@@ -82,20 +82,6 @@ const config = {
       link: 'https://itarfand.com',
     },
     {
-      title: 'فروشگاه آی ترفند',
-      description:
-        'فروشگاه پروژه‌های نرم‌افزاری',
-      imageUrl: '/icons/08.png',
-      link: 'https://shop.itarfand.com',
-    },
-    {
-      title: 'انجمن آی ترفند',
-      description:
-        'انجمن گفتگو',
-      imageUrl: '/icons/10.png',
-      link: 'https://forum.itarfand.com',
-    },
-    {
       title: 'طراحی',
       description:
         'طراحی و برنامه‌نویسی ایده‌های شما',
@@ -177,14 +163,14 @@ const config = {
       description:
         'ایونت‌های طبیعت‌گردی',
       imageUrl: '/icons/14.png',
-      link: 'https://event.karamtravel.ir',
+      link: 'https://event.mhkarami97.ir',
     },
     {
       title: 'طبیعت‌گردی',
       description:
         'رزومه طبیعت‌گردی',
       imageUrl: '/icons/01.png',
-      link: 'https://karamtravel.ir',
+      link: 'https://tour.mhkarami97.ir',
     },
     {
       title: 'تجربه',
@@ -192,6 +178,13 @@ const config = {
         'تجربه',
       imageUrl: '/icons/17.png',
       link: 'https://experience.mhkarami97.ir',
+    },
+    {
+      title: 'آی ترفند',
+      description:
+        'آی ترفند',
+      imageUrl: '/icons/09.png',
+      link: 'https://tarfand.mhkarami97.ir',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
