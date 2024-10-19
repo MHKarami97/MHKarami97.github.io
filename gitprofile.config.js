@@ -220,11 +220,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made By <a 
-      class="text-secondary" style="color: rgb(147 51 234);" href="https://github.com/mhkarami97"
+  footer: `طراحی شده توسط <a 
+      class="text-secondary" style="color: rgb(147 51 234);" href="https:/mhkarami97.ir"
       target="_blank"
       rel="noreferrer"
-    >Mohammad Hossein Karami</a> and 💜`,
+    >محمد حسین کرمی</a>`,
 };
 
 export default config;
