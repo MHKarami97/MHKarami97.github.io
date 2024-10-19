@@ -19,7 +19,7 @@ const config = {
     youtube: 'mhkarami97',
     aparat: 'mhkarami97',
     couchsurfing: 'mhkarami97',
-    website: 'itarfand.com',
+    website: 'mhkarami97.ir',
     email: 'mhkarami97@gmail.com',
   },
   resume: {
@@ -39,7 +39,7 @@ const config = {
       position: 'FullStack',
       from: '2018',
       to: '2020',
-      companyLink: 'https://itarfand.com',
+      companyLink: 'https://mhkarami97.ir',
     },
     {
       company: 'Asa Co',
@@ -79,7 +79,7 @@ const config = {
       description:
         'ترفندهای کاربردی حوضه تکنولوژی',
       imageUrl: '/icons/09.png',
-      link: 'https://itarfand.com',
+      link: 'https://tarfand.mhkarami97.ir',
     },
     {
       title: 'طراحی',
@@ -178,13 +178,6 @@ const config = {
         'تجربه',
       imageUrl: '/icons/17.png',
       link: 'https://experience.mhkarami97.ir',
-    },
-    {
-      title: 'آی ترفند',
-      description:
-        'آی ترفند',
-      imageUrl: '/icons/09.png',
-      link: 'https://tarfand.mhkarami97.ir',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
