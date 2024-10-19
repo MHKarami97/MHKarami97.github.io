@@ -82,13 +82,6 @@ const config = {
       link: 'https://tarfand.mhkarami97.ir',
     },
     {
-      title: 'طراحی',
-      description:
-        'طراحی و برنامه‌نویسی ایده‌های شما',
-      imageUrl: '/icons/07.png',
-      link: 'https://design.mhkarami97.ir',
-    },    
-    {
       title: 'کتابخانه',
       description:
         'کتاب‌های خوانده شده',
