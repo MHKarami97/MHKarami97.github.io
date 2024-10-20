@@ -15,7 +15,7 @@ const config = {
     twitter: 'mhkarami97',
     facebook: 'mhkarami97',
     instagram: 'mhkarami97',
-    telegram: 'mhkarami97',
+    telegram: 'mhkarami_97',
     youtube: 'mhkarami97',
     aparat: 'mhkarami97',
     couchsurfing: 'mhkarami97',
@@ -24,7 +24,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://linkedin.com/in/mhkarami97', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C#',
