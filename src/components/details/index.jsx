@@ -189,14 +189,6 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`skype:${social.skype}?chat`}
                 />
               )}
-              {social?.telegram && (
-                <ListItem
-                  icon={<FaTelegram />}
-                  title="Telegram"
-                  value={social.telegram}
-                  link={`https://t.me/${social.telegram}`}
-                />
-              )}
               {social?.youtube && (
                 <ListItem
                   icon={<FaYoutube />}
@@ -235,6 +227,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Website"
                   value={social.website}
                   link={`https://${social.website}`}
+                />
+              )}
+               {social?.telegram && (
+                <ListItem
+                  icon={<FaTelegram />}
+                  title="Telegram"
+                  value={social.telegram}
+                  link={`https://t.me/${social.telegram}`}
                 />
               )}
                {social?.email && (
