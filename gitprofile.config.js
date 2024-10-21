@@ -12,14 +12,10 @@ const config = {
   },
   social: {
     linkedin: 'mhkarami97',
-    twitter: 'mhkarami97',
-    facebook: 'mhkarami97',
     instagram: 'mhkarami97',
-    telegram: 'mhkarami_97',
     youtube: 'mhkarami97',
     aparat: 'mhkarami97',
-    couchsurfing: 'mhkarami97',
-    website: 'mhkarami97.ir',
+    telegram: 'mhkarami_97',
     email: 'mhkarami97@gmail.com',
   },
   resume: {
