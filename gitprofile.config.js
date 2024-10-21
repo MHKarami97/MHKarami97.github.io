@@ -12,14 +12,10 @@ const config = {
   },
   social: {
     linkedin: 'mhkarami97',
-    twitter: 'mhkarami97',
-    facebook: 'mhkarami97',
     instagram: 'mhkarami97',
-    telegram: 'mhkarami_97',
     youtube: 'mhkarami97',
     aparat: 'mhkarami97',
-    couchsurfing: 'mhkarami97',
-    website: 'itarfand.com',
+    telegram: 'mhkarami_97',
     email: 'mhkarami97@gmail.com',
   },
   resume: {
@@ -30,8 +26,7 @@ const config = {
     'C#',
     'SQL',
     'Angular',
-    'Git',
-    'Docker'
+    'VueJs'
   ],
   experiences: [
     {
@@ -39,7 +34,7 @@ const config = {
       position: 'FullStack',
       from: '2018',
       to: '2020',
-      companyLink: 'https://itarfand.com',
+      companyLink: 'https://mhkarami97.ir',
     },
     {
       company: 'Asa Co',
@@ -79,15 +74,8 @@ const config = {
       description:
         'ترفندهای کاربردی حوضه تکنولوژی',
       imageUrl: '/icons/09.png',
-      link: 'https://itarfand.com',
+      link: 'https://tarfand.mhkarami97.ir',
     },
-    {
-      title: 'طراحی',
-      description:
-        'طراحی و برنامه‌نویسی ایده‌های شما',
-      imageUrl: '/icons/07.png',
-      link: 'https://design.mhkarami97.ir',
-    },    
     {
       title: 'کتابخانه',
       description:
@@ -179,13 +167,6 @@ const config = {
       imageUrl: '/icons/17.png',
       link: 'https://experience.mhkarami97.ir',
     },
-    {
-      title: 'آی ترفند',
-      description:
-        'آی ترفند',
-      imageUrl: '/icons/09.png',
-      link: 'https://tarfand.mhkarami97.ir',
-    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   /* blog: {
@@ -234,11 +215,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made By <a 
-      class="text-secondary" style="color: rgb(147 51 234);" href="https://github.com/mhkarami97"
+  footer: `طراحی شده توسط <a 
+      class="text-secondary" style="color: rgb(147 51 234);" href="https:/mhkarami97.ir"
       target="_blank"
       rel="noreferrer"
-    >Mohammad Hossein Karami</a> and 💜`,
+    >محمد حسین کرمی</a>`,
 };
 
 export default config;
