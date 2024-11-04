@@ -22,19 +22,19 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>{profile.name}</title>
+          <title>محمد حسین کرمی</title>
           <meta
             name="theme-color"
-            content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
+            content="#8d3bff"
           />
 
-          <meta name="description" content={profile.bio} />
+          <meta name="description" content="محمد حسین کرمی | Mohammad Hossein Karami | mhkarami97" />
 
           <meta
             itemProp="name"
-            content={`${profile.name}`}
+            content="محمد حسین کرمی"
           />
-          <meta itemProp="description" content={profile.bio} />
+          <meta itemProp="description" content="محمد حسین کرمی | Mohammad Hossein Karami | mhkarami97" />
           <meta itemProp="image" content="https://mhkarami97.ir/my.jpg" />
 
           <meta property="og:url" content={social?.website || ''} />
@@ -43,7 +43,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
             property="og:title"
             content={`${profile.name}`}
           />
-          <meta property="og:description" content={profile.bio} />
+          <meta property="og:description" content="محمد حسین کرمی | Mohammad Hossein Karami | mhkarami97" />
           <meta property="og:image" content="https://mhkarami97.ir/my.jpg" />
 
           <meta name="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
             name="twitter:title"
             content={`${profile.name}`}
           />
-          <meta name="twitter:description" content={profile.bio} />
+          <meta name="twitter:description" content="محمد حسین کرمی | Mohammad Hossein Karami | mhkarami97" />
           <meta name="twitter:image" content="https://mhkarami97.ir/my.jpg"  />
         </Helmet>
       )}
