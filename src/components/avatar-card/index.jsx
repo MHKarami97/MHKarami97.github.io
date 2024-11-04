@@ -52,7 +52,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
           <div className="mt-3 text-base-content text-opacity-60 font-mono">
             {loading || !profile
               ? skeleton({ width: 'w-48', height: 'h-5' })
-              : (<a href="https://magic.mhkarami97.ir" style="color: rgb(147 51 234);">Magic Box</a>)}
+              : (<a href="https://magic.mhkarami97.ir" style={{color: spacing + '#8d3bff'}}>Magic Box</a>)}
           </div>
         </div>
         {resume?.fileUrl &&
