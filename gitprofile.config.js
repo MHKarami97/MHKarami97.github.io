@@ -216,7 +216,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `طراحی شده توسط <a 
-      class="text-secondary" style="color: #8d3bff" href="https:/mhkarami97.ir"
+      class="text-secondary" style="color: #8d3bff" href="https://mhkarami97.ir"
       target="_blank"
       rel="noreferrer"
     >محمد حسین کرمی</a>`,
